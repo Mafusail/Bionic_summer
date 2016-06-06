@@ -11,11 +11,191 @@
 
 
 .block_1_a{
+    display: block;
     width: 100%;
-    height: 600px;
-    line-height: 600px;
-    background: #7459d3;
 }
+
+
+.block_1_a img{
+    width: 100%;
+}
+
+
+/*ТОП меню*/
+
+header {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 70px;
+    box-shadow: none;
+    background-color: transparent;
+    -webkit-transition: all .5s ;
+}
+
+
+nav {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    height: 70px;
+    -webkit-transition: margin-left .5s;
+}
+
+
+.menu_a {
+    position: fixed;
+    right: 300px;
+    display: block;
+    list-style: none;
+}
+
+
+.menu_a li {
+    color: #1b6045;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    padding: 0 20px;
+    transition: all 0.5s;
+}
+
+
+.menu_a li:hover {
+    color: #337ab7;
+
+}
+
+
+.menu_a a{
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+
+img#logo{
+    position: fixed;
+    display: block;
+    left: 60px;
+    width: 193px;
+    -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
+
+
+img#logo1{
+    display: none;
+    position: fixed;
+    height:40px;
+    /*margin-top: -5px;*/
+    left: 20px;
+}
+
+
+img#logo2{
+    display: none;
+    position: fixed;
+    left: 10px;
+}
+
+
+
+
+/*счетчик*/
+
+#schetchic{
+    top: 5px;
+    height: 60px;
+    position: fixed;
+    right: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1120px) {
+    #logo {
+        display: none!important;
+    }
+    img#logo1{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    img#logo1{
+        display: none!important;
+    }
+
+    img#logo2{
+        display: block;
+        height:35px;
+        margin-top: -35px;
+        cursor: pointer;
+    }
+
+    header{
+        height: 35px;
+        /*background: transparent !important;*/
+    }
+    #menu{
+        display: inline;
+        float: left;
+        margin: 35px 0 0 0px;
+        width: 120px;
+
+    }
+    #menu ul{
+        width: 120px;
+        display: none;
+        margin: 0px;
+    }
+    #menu ul li{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        background: #ee6123;
+        border-bottom: 1px solid #ffffff;
+        transition: background 0.5s;
+    }
+    #menu ul li:hover{
+        color: #ee6123;
+        background: #ffffff;
+        border-bottom: 3px solid #473c89;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .block_2_v{
     width: 100%;
@@ -48,4 +228,5 @@
     line-height: 600px;
     background: #be31d3;
 }
+
 
