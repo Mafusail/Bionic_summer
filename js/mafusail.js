@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 
     var flag = false;
@@ -32,7 +34,7 @@ $(document).ready(function(){
                     "background-color": "transparent",
                     "box-shadow": "none"
                 });
-               
+
                 flag = false;
             }
         }
@@ -45,6 +47,37 @@ $(document).ready(function(){
     $('#logo2').click(function () {
         $('#menu ul').slideToggle(500);
     });
+
+
+
+    // счетчик
+
+    var clock;
+    clock = $(".clock").FlipClock({
+        clockFace : "DailyCounter",
+        autoStart : false,
+        callbacks : {
+            stop : function () {
+                $(".massage").html("Время прошло");
+            }
+        }
+    });
+
+    var dt = "July 04 2016 00:00:00";
+    var first = new Date(dt);
+    var last = Date.now();
+    var remaining = first - last;
+    remaining /=1000;
+
+    clock.setTime(remaining);
+    clock.setCountdown(true);
+    clock.start();
+
+
+
+
+
+
 
 
 
