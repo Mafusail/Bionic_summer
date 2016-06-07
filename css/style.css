@@ -8,7 +8,7 @@
     margin: 0;
     font-family: "PF BeauSans Pro";
 }
-}
+
 
 .start{
     text-align: center;
@@ -279,11 +279,11 @@ img#logo2{
 }
 
 /*.slick-prev, .slick-next {*/
-    /*padding-top: 6% !important;*/
+/*padding-top: 6% !important;*/
 /*}*/
 
 /*.slick-slider {*/
-    /*padding-top: 6% !important;*/
+/*padding-top: 6% !important;*/
 /*}*/
 
 
@@ -323,7 +323,7 @@ img#logo2{
 }
 
 .wow:first-child {
-      visibility: hidden;
+    visibility: hidden;
 }
 
 .block_4_v{
