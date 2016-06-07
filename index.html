@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="css/libs/animate.css">
   <link rel="stylesheet" href="css/site.css">
   <!-- WOW -->
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -97,7 +99,43 @@
 
 
 <div id="box3" class="block_3_m">
-    <p class="start">Max слайдер с командой</p>
+    <div class="white_line">
+        <h1 class="mentors">
+            Лідери скаутського руху
+        </h1>
+    </div>
+    <div class="slide-contain">
+        <div class="multiple-items">
+            <div>
+                <img src="img/3-1.jpg" alt="Slider 1" />
+            </div>
+            <div>
+                <img src="img/3-2.jpg" alt="Slider 2" />
+            </div>
+            <div>
+                <img src="img/3-3.jpg" alt="Slider 3" />
+            </div>
+            <div>
+                <img src="img/3-1.jpg" alt="Slider 1" />
+            </div>
+            <div>
+                <img src="img/3-2.jpg" alt="Slider 2" />
+            </div>
+            <div>
+                <img src="img/3-3.jpg" alt="Slider 3" />
+            </div>
+            <div>
+                <img src="img/3-1.jpg" alt="Slider 1" />
+            </div>
+            <div>
+                <img src="img/3-2.jpg" alt="Slider 2" />
+            </div>
+            <div>
+                <img src="img/3-3.jpg" alt="Slider 3" />
+            </div>
+
+        </div>
+    </div>
 </div>
 
 
@@ -144,6 +182,18 @@
   </script>
   <!-- WOW -->
 
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 4,
+            dots: true,
+            autoplay: true
+        });
+    });
+</script>
 
 <script src="js/mafusail.js"></script>
 <script src="js/max.js"></script>
