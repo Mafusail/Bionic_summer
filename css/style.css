@@ -180,22 +180,23 @@ img#logo2{
 
 .block_2_v{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background: url(img/fon_block2.jpg) no-repeat;
 }
 
-.block_2_v h1 {
+/*.block_2_v h1 {
     text-align: center;
-    padding: 70px 0;
+    padding: 0px 0;
     padding-bottom: 100px;
     color: #e2550b;
     font-size: 50px;
-}
+}*/
 
 .txt {
     min-width: 200px;
     text-align: center;
     padding: 0px 100px;
+    padding-top: 100px;
     color: #0d3a37;
     font-size: 35px;
 }
@@ -203,7 +204,7 @@ img#logo2{
 .icon {
     width: 100%;
     height: 200px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .pic {
     width: 25%;
@@ -211,7 +212,7 @@ img#logo2{
 }
 
 .pic img {
-    width: 80%;
+    width: 60%;
 }
 
 .center {
@@ -232,7 +233,7 @@ img#logo2{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    display: block; /*Чтобы виден стал*/
+    display: block; Чтобы виден стал
     transition: all 0.5s;
     overflow: hidden;
 }
@@ -249,7 +250,21 @@ img#logo2{
 /*BLOCK2 END*/
 
 
+
+
+
 /*FRONT END+QA*/
+
+
+.white_line {
+    background: white;
+    text-align: center;
+    padding-top: 50px;
+    opacity: 0.7;
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+}
 
 .wow:first-child {
       visibility: hidden;
@@ -257,21 +272,62 @@ img#logo2{
 
 .block_4_v{
     width: 100%;
-    height: 600px;
-    line-height: 600px;
-    background: #40d3c8;
+    height: 1100px;
+    background: url(css/img/fon_block4.jpg) no-repeat;
 }
 
 .front {
+    padding-top: 30px;
     width: 100%;
-    height: 300px;
-    background: tomato;
+    height: 450px;
 }
 
 .qa {
     width: 100%;
-    height: 300px;
-    background: olive;
+    height: 450px;
+}
+
+.picture_front {
+    float: left;
+    width: 31%;
+    height: 400px;
+    background: url(img/front_end.png) no-repeat;
+}
+
+.content_front1 {
+    float: left;
+    width: 31%;
+    height: 400px;
+    background: url(img/content_front1.png) no-repeat;
+}
+
+.content_front2 {
+    float: left;
+    width: 31%;
+    height: 400px;
+    background: url(img/content_front2.png) no-repeat;
+}
+
+.qa_p {
+    padding-right: 100px;
+    float: right;
+    width: 31%;
+    height: 400px;
+    background: url(img/qa.png) no-repeat;
+}
+
+.qa1 {
+    float: right;
+    width: 31%;
+    height: 400px;
+    background: url(img/qa1.png) no-repeat;
+}
+
+.qa2 {
+    float: right;
+    width: 31%;
+    height: 400px;
+    background: url(img/qa2.png) no-repeat;
 }
 
 /*FRONT END+QA END*/
