@@ -1,6 +1,13 @@
+@font-face {
+    font-family: "PF BeauSans Pro";
+    src: url(fonts/);
+}
+
 *{
     padding: 0;
     margin: 0;
+    font-family: "PF BeauSans Pro";
+}
 }
 
 .start{
@@ -169,57 +176,229 @@ img#logo2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*BLOCK2*/
 
 .block_2_v{
     width: 100%;
-    height: 600px;
-    line-height: 600px;
-    background: #b7d362;
+    height: 900px;
+    background: url(img/fon_block2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+/*.block_2_v h1 {
+    text-align: center;
+    padding: 0px 0;
+    padding-bottom: 100px;
+    color: #e2550b;
+    font-size: 50px;
+}*/
+
+.txt {
+    min-width: 200px;
+    text-align: center;
+    padding: 0px 100px;
+    padding-top: 100px;
+    color: #0d3a37;
+    font-size: 35px;
+}
+
+.icon {
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+}
+.pic {
+    width: 25%;
+    float: left;
+}
+
+.pic img {
+    width: 60%;
+}
+
+.center {
+    text-align: center;
+}
+.center2 {
+    text-align: center;
+    font-size: 24px;
+    color: #0d3a37;
+}
+
+
+.pic::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("css/img/pic1.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block; Чтобы виден стал
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+
+.pic:hover::after {
+    background: url("css/img/pic12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/*BLOCK2 END*/
+
+/*Block3 Begins*/
+
+.multiple-items img {
+    width: 70%;
+    height: 70%;
+}
+
+.slide-contain {
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../img/3-background.jpg');
+    position: relative;
+}
+
+.multiple-items {
+    width: 85%;
+    margin: 0 auto;
+    /*padding-top: 15%;*/
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #00ade5 !important;
+    font-size: 40px !important;
+}
+
+/*.slick-prev, .slick-next {*/
+    /*padding-top: 6% !important;*/
+/*}*/
+
+/*.slick-slider {*/
+    /*padding-top: 6% !important;*/
+/*}*/
+
+
+.slick-dots li button:before {
+    font-size: 20px !important;
+    color: #00ade5 !important;
+    /* margin-top: 30px; */
+
+}
+
+.slick-prev {
+    left: -45px !important;
+}
+
+@media screen and (max-width: 750px) {
+    button.slick-prev.slick-arrow,
+    button.slick-next.slick-arrow {
+
+    }
+}
+
+/*Block3 End*/
+
+
+
+/*FRONT END+QA*/
+
+
+.white_line {
+    background: white;
+    text-align: center;
+    padding-top: 50px;
+    opacity: 0.7;
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+}
+
+.wow:first-child {
+      visibility: hidden;
+}
+
+.block_4_v{
+    width: 100%;
+    height: 1100px;
+    background: url(css/img/fon_block4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.front {
+    padding-top: 30px;
+    width: 100%;
+    height: 450px;
+}
+
+.qa {
+    width: 100%;
+    height: 450px;
+}
+
+.picture_front {
+    float: left;
+    width: 31%;
+    height: 400px;
+    background: url(img/front_end.png) no-repeat;
+}
+
+.content_front1 {
+    float: left;
+    width: 31%;
+    height: 400px;
+    background: url(img/content_front1.png) no-repeat;
+}
+
+.content_front2 {
+    float: left;
+    width: 31%;
+    height: 400px;
+    background: url(img/content_front2.png) no-repeat;
+}
+
+.qa_p {
+    padding-right: 100px;
+    float: right;
+    width: 31%;
+    height: 400px;
+    background: url(img/qa.png) no-repeat;
+}
+
+.qa1 {
+    float: right;
+    width: 31%;
+    height: 400px;
+    background: url(img/qa1.png) no-repeat;
+}
+
+.qa2 {
+    float: right;
+    width: 31%;
+    height: 400px;
+    background: url(img/qa2.png) no-repeat;
+}
+
+/*FRONT END+QA END*/
+
 
 
 .block_3_m{
     width: 100%;
-    height: 600px;
-    line-height: 600px;
-    background: #d37c6f;
+    height: auto;
+    /*line-height: 600px;*/
+    /*background: #d37c6f;*/
 }
 
-
-
-.block_4_v{
-    width: 100%;
-    height: 600px;
-    line-height: 600px;
-    background: #40d3c8;
-}
 
 
 .block_5_a{
