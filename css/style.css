@@ -182,6 +182,8 @@ img#logo2{
     width: 100%;
     height: 900px;
     background: url(img/fon_block2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /*.block_2_v h1 {
@@ -274,6 +276,8 @@ img#logo2{
     width: 100%;
     height: 1100px;
     background: url(css/img/fon_block4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .front {
