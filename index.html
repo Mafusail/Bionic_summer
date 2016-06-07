@@ -142,18 +142,21 @@
 
 
 <div class="block_4_v">
-    <div class="white_line">
-        <h1>Програма підготовки IT-скаутів</h1>
-    </div>
-    <div  class="front wow slideInRight" data-wow-offset="300">
+<div class="white_line">
+<h1 >Програма підготовки IT-скаутів</h1>
+</div>
+    <div  class="front wow bounceInRight" data-wow-offset="300">
         <div class="picture_front"></div>
         <div class="content_front1"></div>
         <div class="content_front2"></div>
+        <a href="#" class="paulund_modal"> <div class="content_front3"></div>
+        </a>
     </div>
     <div class="qa wow bounceInLeft" data-wow-offset="300">
         <div class="qa_p"></div>
         <div class="qa1"></div>
         <div class="qa2"></div>
+        <a href="#" class="paulund_modal_2"><div class="qa3"></div></a>
     </div>
 </div>
 
@@ -163,26 +166,71 @@
     <p class="start">Alex форма заполнения и футер </p>
 </div>
 
+<!-- WINDOW -->
+<script src="js/jquery.paulund_modal_box.js"></script>
+
+<script>
+    
+$(document).ready(function(){
+    $('.paulund_modal').paulund_modal_box();
+    $('.paulund_modal_2').paulund_modal_box({
+        title:'Second Title Box',
+        description:'Custom description for box <br/><br/>Quisque sodales odio nec dolor porta sed laoreet mauris pretium. Aenean id mauris ligula, semper pulvinar dolor. Suspendisse rutrum, libero eu condimentum porta, mauris mauris semper augue, ut tempor nunc arcu vel ligula. Quisque orci eros, consequat vel iaculis eget, blandit bibendum est. Morbi ac tellus dui. Nullam eget eros et lectus dignissim placerat. Nulla facilisi. Ut congue posuere vulputate.'
+    });
+    $('.paulund_modal_3').paulund_modal_box({
+        title: 'Change Title with height',
+        height: '500'
+    });
+    $('.paulund_modal_4').paulund_modal_box({
+        title: 'Change Title with Width',
+        width: '800'
+    });
+    $('.paulund_modal_5').paulund_modal_box({
+        title:'Second Title Box',
+        description:'Custom description for box <br/><br/>Quisque sodales odio nec dolor porta sed laoreet mauris pretium. Aenean id mauris ligula, semper pulvinar dolor. Suspendisse rutrum, libero eu condimentum porta, mauris mauris semper augue, ut tempor nunc arcu vel ligula. Quisque orci eros, consequat vel iaculis eget, blandit bibendum est. Morbi ac tellus dui. Nullam eget eros et lectus dignissim placerat. Nulla facilisi. Ut congue posuere vulputate.',
+        height: '500',
+        width: '800'
+    });
+});
+</script>
+
+<script type="text/javascript">
+    
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-8196211-5']);
+_gaq.push(['_trackPageview']);
+        
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+        
+</script>
+
+<!-- WINDOW -->
+
 <!-- WOW -->
 <script src="dist/wow.js"></script>
-<script>
+  <script>
     wow = new WOW(
-            {
-                animateClass: 'animated',
-                offset:       100,
-                callback:     function(box) {
-                    console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-                }
-            }
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
     );
     wow.init();
     document.getElementById('moar').onclick = function() {
-        var section = document.createElement('section');
-        section.className = 'section--purple wow fadeInDown';
-        this.parentNode.insertBefore(section, this);
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
     };
-</script>
-<!-- WOW -->
+  </script>
+  <!-- WOW -->
+
 
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script>
