@@ -1,6 +1,13 @@
+@font-face {
+    font-family: "PF BeauSans Pro";
+    src: url(fonts/);
+}
+
 *{
     padding: 0;
     margin: 0;
+    font-family: "PF BeauSans Pro";
+}
 }
 
 .start{
@@ -169,40 +176,106 @@ img#logo2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*BLOCK2*/
 
 .block_2_v{
     width: 100%;
+    height: 800px;
+    background: url(img/fon_block2.jpg) no-repeat;
+}
+
+.block_2_v h1 {
+    text-align: center;
+    padding: 70px 0;
+    padding-bottom: 100px;
+    color: #e2550b;
+    font-size: 50px;
+}
+
+.txt {
+    min-width: 200px;
+    text-align: center;
+    padding: 0px 100px;
+    color: #0d3a37;
+    font-size: 35px;
+}
+
+.icon {
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+}
+.pic {
+    width: 25%;
+    float: left;
+}
+
+.pic img {
+    width: 80%;
+}
+
+.center {
+    text-align: center;
+}
+.center2 {
+    text-align: center;
+    font-size: 24px;
+    color: #0d3a37;
+}
+
+
+.pic::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("css/img/pic1.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block; /*Чтобы виден стал*/
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+
+.pic:hover::after {
+    background: url("css/img/pic12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/*BLOCK2 END*/
+
+
+/*FRONT END+QA*/
+
+.wow:first-child {
+      visibility: hidden;
+}
+
+.block_4_v{
+    width: 100%;
     height: 600px;
     line-height: 600px;
-    background: #b7d362;
+    background: #40d3c8;
 }
+
+.front {
+    width: 100%;
+    height: 300px;
+    background: tomato;
+}
+
+.qa {
+    width: 100%;
+    height: 300px;
+    background: olive;
+}
+
+/*FRONT END+QA END*/
+
 
 
 .block_3_m{
@@ -212,14 +285,6 @@ img#logo2{
     background: #d37c6f;
 }
 
-
-
-.block_4_v{
-    width: 100%;
-    height: 600px;
-    line-height: 600px;
-    background: #40d3c8;
-}
 
 
 .block_5_a{
