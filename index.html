@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Bionic summer</title>
+
+<!-- WOW -->
+<link rel="stylesheet" href="css/libs/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+  <!-- WOW -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -39,7 +45,7 @@
 
 <div id="box1" class="block_1_a" >
 
-    <img src="img/bg1.gif" alt="">
+    <img src="img/bg1.jpg" alt="">
 
 </div>
 
@@ -50,7 +56,9 @@
 
 
 <div class="block_2_v">
-    <h1>Приготуйся кодити по-дорослому!</h1>
+    <div class="white_line">
+        <h1>Приготуйся кодити по-дорослому!</h1>
+    </div>
 
     <div class="txt"><b>BIONIC Summer Camp</b> - ставай крутим IT-скаутом разом з нами!
     Всього за 6 тижнів ми навчимо тебе, як розводити вогонь і полювати на ведмедів стати прокачаним <b>Front-end</b> розробником або <b>QA/Business Analyst!</b>
@@ -94,16 +102,18 @@
 
 
 <div class="block_4_v">
-    <div class="section--purple wow slideInRight" data-wow-delay="2s"></div>
-    <div class="front" class="section--purple wow slideInRight" data-wow-delay="2s">
+<div class="white_line">
+<h1>Програма підготовки IT-скаутів</h1>
+</div>
+    <div  class="front wow slideInRight" data-wow-offset="300">
         <div class="picture_front"></div>
-        <div class="contetn_front1"></div>
-        <div class="contetn_front2"></div>
+        <div class="content_front1"></div>
+        <div class="content_front2"></div>
     </div>
-    <div class="qa" class="section--blue wow bounceInLeft" data-wow-offset="300">
-        <div class="picture_qa"></div>
-        <div class="content_qa1"></div>
-        <div class="content_qa2"></div>
+    <div class="qa wow bounceInLeft" data-wow-offset="300">
+        <div class="qa_p"></div>
+        <div class="qa1"></div>
+        <div class="qa2"></div>
     </div>
 </div>
 
@@ -113,7 +123,26 @@
     <p class="start">Alex форма заполнения и футер </p>
 </div>
 
-
+<!-- WOW -->
+<script src="dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+  <!-- WOW -->
 
 
 <script src="js/mafusail.js"></script>
