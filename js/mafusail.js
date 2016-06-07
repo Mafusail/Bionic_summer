@@ -8,7 +8,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         scroll = $(window).scrollTop();
 
-        if(scroll > 200){
+        if(scroll > 100){
             if(!flag){
                 $("#logo").css({
                     "margin-top": "5px",
@@ -50,17 +50,6 @@ $(document).ready(function(){
 
 
 
-    // счетчик
-
-
-
-
-
-
-
-
-
-
 });
 
 
@@ -80,3 +69,29 @@ $("#menu").on("click","a", function (event) {
     //анимируем переход на расстояние - top за 1500 мс
     $('body,html').animate({scrollTop: top}, 1500);
 });
+
+
+
+
+
+
+
+
+// счетчик
+timeend= new Date();
+// IE и FF по разному отрабатывают getYear()
+timeend= new Date(timeend.getYear()>1900?(timeend.getYear()+1):(timeend.getYear()+1901),0,1);
+// для задания обратного отсчета до определенной даты укажите дату в формате:
+// timeend= new Date(2016, 7-1, 1);
+// Для задания даты с точностью до времени укажите дату в формате:
+timeend= new Date(2016, 7-1, 1, 11-1, 0);
+function time() {
+    today = new Date();
+    today = Math.floor((timeend-today)/1000);
+    tsec=today%60; today=Math.floor(today/60); if(tsec<10)tsec='0'+tsec;
+    tmin=today%60; today=Math.floor(today/60); if(tmin<10)tmin='0'+tmin;
+    thour=today%24; today=Math.floor(today/24);
+    timestr=today +"&#160;&#160;&#160;&#160;&#160;&#160;"+ thour+"&#160;&#160;&#160;&#160;&#160;"+tmin+"&#160;&#160;&#160;&#160;&#160;&#160;"+tsec+"";
+    document.getElementById('t').innerHTML=timestr;
+    window.setTimeout("time()",1000);
+}
