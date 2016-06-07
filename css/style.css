@@ -9,12 +9,18 @@
 }
 
 
+
+
+
+
+
+
+
 .start{
     text-align: center;
     font-size: 3rem;
 
 }
-
 
 
 .block_1_a{
@@ -263,8 +269,22 @@ img#logo2{
 /*Block3 Begins*/
 
 .multiple-items img {
+
     width: 70%;
     height: 70%;
+    margin: 0px auto 10px auto;
+}
+
+
+.multiple-items div {
+     margin: 20px auto;
+ }
+
+.multiple-items span {
+    color: #ee6123;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .slide-contain {
@@ -279,6 +299,7 @@ img#logo2{
 .multiple-items {
     width: 85%;
     margin: 0 auto;
+    text-align: center;
     /*padding-top: 15%;*/
 }
 
@@ -314,6 +335,303 @@ img#logo2{
     }
 }
 
+
+
+
+
+
+
+/*всплывающие блоки трениров*/
+
+
+
+
+
+#hover_a{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(9, 5, 59, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+}
+
+
+#block_inf_1{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+
+}
+
+#block_inf_1 img{
+    width: 100%;
+}
+
+#img_inf_1{
+    cursor: pointer;
+}
+
+
+#block_inf_2{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_2 img{
+    width: 100%;
+}
+
+
+#img_inf_2{
+    cursor: pointer;
+}
+
+#block_inf_3{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_3 img{
+    width: 100%;
+}
+
+#img_inf_3{
+    cursor: pointer;
+}
+
+#block_inf_4{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_4 img{
+    width: 100%;
+}
+
+
+#img_inf_4{
+    cursor: pointer;
+}
+
+#block_inf_5{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_5 img{
+    width: 100%;
+}
+
+
+#img_inf_5{
+    cursor: pointer;
+}
+
+#block_inf_6{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_6 img{
+    width: 100%;
+}
+
+
+#img_inf_6{
+    cursor: pointer;
+}
+
+#block_inf_7{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_7 img{
+    width: 100%;
+}
+
+#img_inf_7{
+    cursor: pointer;
+}
+
+#block_inf_8{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_8 img{
+    width: 100%;
+}
+
+#img_inf_8{
+    cursor: pointer;
+}
+
+#block_inf_9{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_9 img{
+    width: 100%;
+}
+
+#img_inf_9{
+    cursor: pointer;
+}
+
+
+#block_inf_10{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_10 img{
+    width: 100%;
+}
+
+#img_inf_10{
+    cursor: pointer;
+}
+
+#block_inf_11{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_11 img{
+    width: 100%;
+}
+
+#img_inf_11{
+    cursor: pointer;
+}
+
+#block_inf_12{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_12 img{
+    width: 100%;
+}
+
+#img_inf_12{
+    cursor: pointer;
+}
+
+
+
 /*Block3 End*/
 
 
@@ -332,7 +650,7 @@ img#logo2{
 }
 
 .wow:first-child {
-      visibility: hidden;
+    visibility: hidden;
 }
 
 .block_4_v{
@@ -356,59 +674,45 @@ img#logo2{
 
 .picture_front {
     float: left;
-    width: 27%;
+    width: 31%;
     height: 400px;
     background: url(img/front_end.png) no-repeat;
 }
 
 .content_front1 {
     float: left;
-    width: 27%;
+    width: 31%;
     height: 400px;
     background: url(img/content_front1.png) no-repeat;
 }
 
 .content_front2 {
     float: left;
-    width: 27%;
+    width: 31%;
     height: 400px;
     background: url(img/content_front2.png) no-repeat;
-}
-
-.content_front3 {
-    float: left;
-    width: 10%;
-    height: 400px;
-    background: url(img/content_front3.png) no-repeat;
 }
 
 .qa_p {
     padding-right: 100px;
     float: right;
-    width: 27%;
+    width: 31%;
     height: 400px;
     background: url(img/qa.png) no-repeat;
 }
 
 .qa1 {
     float: right;
-    width: 27%;
+    width: 31%;
     height: 400px;
     background: url(img/qa1.png) no-repeat;
 }
 
 .qa2 {
     float: right;
-    width: 27%;
+    width: 31%;
     height: 400px;
     background: url(img/qa2.png) no-repeat;
-}
-
-.qa3 {
-    float: right;
-    width: 10%;
-    height: 400px;
-    background: url(img/qa3.png) no-repeat;
 }
 
 /*FRONT END+QA END*/

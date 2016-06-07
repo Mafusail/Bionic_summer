@@ -95,3 +95,125 @@ function time() {
     document.getElementById('t').innerHTML=timestr;
     window.setTimeout("time()",1000);
 }
+
+
+
+// всплывающие блоки трениров
+
+$('#img_inf_1').click(function () {
+    $("#block_inf_1").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_1").hide();
+    $("#hover_a").hide();
+});
+
+
+$('#img_inf_2').click(function () {
+    $("#block_inf_2").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_2").hide();
+    $("#hover_a").hide();
+});
+
+
+
+$('#img_inf_3').click(function () {
+    $("#block_inf_3").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_3").hide();
+    $("#hover_a").hide();
+});
+
+
+
+$('#img_inf_4').click(function () {
+    $("#block_inf_4").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_4").hide();
+    $("#hover_a").hide();
+});
+
+$('#img_inf_5').click(function () {
+    $("#block_inf_5").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_5").hide();
+    $("#hover_a").hide();
+});
+
+
+
+$('#img_inf_6').click(function () {
+    $("#block_inf_6").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_6").hide();
+    $("#hover_a").hide();
+});
+
+
+$('#img_inf_7').click(function () {
+    $("#block_inf_7").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_7").hide();
+    $("#hover_a").hide();
+});
+
+
+$('#img_inf_8').click(function () {
+    $("#block_inf_8").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_8").hide();
+    $("#hover_a").hide();
+});
+
+
+$('#img_inf_9').click(function () {
+    $("#block_inf_9").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_9").hide();
+    $("#hover_a").hide();
+});
+
+$('#img_inf_10').click(function () {
+    $("#block_inf_10").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_10").hide();
+    $("#hover_a").hide();
+});
+
+$('#img_inf_11').click(function () {
+    $("#block_inf_11").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_11").hide();
+    $("#hover_a").hide();
+});
+
+$('#img_inf_12').click(function () {
+    $("#block_inf_12").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_inf_12").hide();
+    $("#hover_a").hide();
+});
