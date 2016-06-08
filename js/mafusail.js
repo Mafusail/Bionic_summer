@@ -73,11 +73,11 @@ $(document).ready(function(){
         messages: {
 
             name: {
-                required: "Поле 'Имя' <br>обязательно для заполнения",
+                required: "<br> Поле 'Имя' <br>обязательно для заполнения",
             },
 
             mail: {
-                email: "В e-mail адресе должен <br> присудстовать символ '@'! <br> Примере: UNIVERSITY@BIONIC-UNIVERSITY.COM",
+                email: "<br>В e-mail адресе должен <br> присудстовать символ '@'! <br> Примере: UNIVERSITY@BIONIC-UNIVERSITY.COM",
                 required: "Поле для e-mail обязательно <br> для заполнения",
             },
 

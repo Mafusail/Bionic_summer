@@ -946,3 +946,21 @@ label {
         left: 5%;
     }
 }
+
+
+
+
+label.error{
+    height: 80px;
+    width: 110%;
+    position: absolute;
+    font-size: 100%;
+    color: #ffffff;
+    left: 3%;
+    bottom: -100%;
+    padding: 5px;
+    background: #8DC2C4;
+    border: 2px solid #2E767C;
+    transition: all 0.5s;
+    text-align: center;
+}
