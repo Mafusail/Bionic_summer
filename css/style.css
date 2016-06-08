@@ -29,7 +29,6 @@ html {
 .block_1_a{
     display: block;
     width: 100%;
-    margin-bottom: -5px;
 }
 
 
@@ -842,18 +841,39 @@ img#logo2{
 
 .block_5_a{
     width: 100%;
-    height: 1080px;
-    background-image: url(img/footer_fon.jpg);
-    background-repeat: no-repeat;
-    box-sizing: content-box;
     position: relative;
-    overflow: visible;
+}
+
+#headerForm {
+    position: relative;
+    background-image: none;
+}
+
+#formBackgr {
+    position: relative;
+    background-image: url(img/fon5.jpg);
+    width: 100%;
+    height: 1080px;
+}
+
+.formKonv {
+    position: relative;
+    width: 484px;
+    height: 670px;
+    background-image: url("img/mail.jpg");
+    background-repeat: no-repeat;
+    top: 20%;
+    bottom: 10%;
+    left: 15%;
+    display: inline-block;
 }
 
 .form_contact {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 10%;
+    left: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 .form_contact input, fieldset {
@@ -874,11 +894,12 @@ label {
     color: white;
     position: absolute;
     top: 50%;
-    right: 10%;
+    right: 30%;
+    display: inline-block;
 }
 
 .contacts a {
-    decoration: none;
+    text-decoration: none;
     color: white;
 }
 
@@ -896,36 +917,32 @@ label {
 }
 
 
+@media screen and (max-width: 1800px) {
+    .contacts {
+        right: 25%;
+    }
+}
 
-/*Валидвация*/
+@media screen and (max-width: 1600px) {
+    .contacts {
+        right: 20%;
+    }
+}
 
+@media screen and (max-width: 1400px) {
+    .contacts {
+        right: 10%;
+    }
+}
 
-/*label.error.active{*/
-    /*width: 300px;*/
-    /*position: absolute;*/
-    /*font-size: 1.2rem;*/
-    /*color: #ffffff;*/
-    /*right: 30px;*/
-    /*top: 45px;*/
-    /*margin: 40px;*/
-    /*padding: 40px;*/
-    /*background: #373737;*/
-    /*transition: all 0.5s;*/
+@media screen and (max-width: 1200px) {
+    .contacts {
+        right: 5%;
+    }
+}
 
-/*}*/
-
-
-label.error{
-    width: 300px;
-    position: absolute;
-    font-size: 1rem;
-    color: #ffffff;
-    left: 20px;
-    top: 205px;
-    margin: 40px;
-    padding: 20px;
-    background: #66A0A2;
-    transition: all 0.5s;
-    text-align: center;
-    border: 2px solid #277177;
+@media screen and (max-width: 1100px) {
+    .formKonv {
+        left: 5%;
+    }
 }
