@@ -103,17 +103,18 @@ img#logo1{
     display: none;
     position: fixed;
     height:40px;
-    /*margin-top: -5px;*/
+    top: 2px;
     left: 20px;
+    cursor: pointer;
 }
 
 
 img#logo2{
     display: none;
     position: fixed;
-    left: 10px;
+    height:40px;
+    left: 20px;
 }
-
 
 
 
@@ -135,36 +136,53 @@ img#logo2{
     z-index: 9000000;
     color: #ffffff;
     font-weight: bold;
+    font-size:20px
 }
 
 
 
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1250px) {
     #logo {
         display: none!important;
     }
-    img#logo1{
+    img#logo2{
         display: block;
+    }
+
+    .menu_a li {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    #schetchic{
+        height: 60px;
+        position: fixed;
+        right: 20px;
+    }
+
+    #t{
+        top: 25px;
+        height: 60px;
+        right: 40px;
+    }
+    .menu_a {
+        right: 260px;
     }
 }
 
-@media screen and (max-width: 650px) {
-    img#logo1{
+
+@media screen and (max-width: 860px) {
+    img#logo2 {
         display: none!important;
     }
-
-    img#logo2{
+    img#logo1{
         display: block;
-        height:35px;
-        margin-top: -35px;
-        cursor: pointer;
+    }
+    header {
+        height: 40px;
     }
 
-    header{
-        height: 35px;
-        /*background: transparent !important;*/
-    }
+
     #menu{
         display: inline;
         float: left;
@@ -173,24 +191,56 @@ img#logo2{
 
     }
     #menu ul{
-        width: 120px;
+        width: 140px;
         display: none;
         margin: 0px;
     }
     #menu ul li{
+        color: #ffffff;
         width: 100%;
         margin: 0;
         padding: 5px;
-        background: #ee6123;
+        line-height: 15px;
+        background: #8DC2C4;
         border-bottom: 1px solid #ffffff;
         transition: background 0.5s;
     }
     #menu ul li:hover{
-        color: #ee6123;
+        color: #1b6045;
         background: #ffffff;
-        border-bottom: 3px solid #473c89;
+        border-bottom: 3px solid #1b6045;
+    }
+    .menu_a {
+        top: 40px;
+        left: 0px;
+    }
+    #schetchic{
+        top: 3px;
+        height: 34px;
+        right: 20px;
+    }
+
+    #t{
+        top: 14px;
+        height: 34px;
+        right: 30px;
+        font-size: 11.5px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

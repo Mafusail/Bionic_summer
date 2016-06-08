@@ -44,12 +44,19 @@ $(document).ready(function(){
     // выплывающие меню
 
 
-    $('#logo2').click(function () {
+    $('#logo1').click(function () {
         $('#menu ul').slideToggle(500);
     });
 
 
 
+});
+
+// выплывающие меню
+
+
+$('#logo2').click(function () {
+    $('#menu ul').slideToggle(500);
 });
 
 
