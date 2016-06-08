@@ -29,6 +29,7 @@ html {
 .block_1_a{
     display: block;
     width: 100%;
+    margin-bottom: -5px;
 }
 
 
