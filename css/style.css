@@ -1,6 +1,6 @@
 @font-face {
     font-family: "PF BeauSans Pro";
-    src: url(fonts/PFBeauSansPro-Reg.ttf);
+    src: url(../fonts/PFBeauSansPro-Reg.ttf);
 }
 *{
     padding: 0;
@@ -9,7 +9,10 @@
 }
 
 
-
+html {
+    font-size: 100%;
+    width: 100vw;
+}
 
 
 
@@ -744,9 +747,28 @@ img#logo2{
 
 .block_5_a{
     width: 100%;
-    height: 600px;
-    line-height: 600px;
-    background: #be31d3;
+    height: 1080px;
+    background-image: url(img/footer_fon.jpg);
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    position: relative;
+    overflow: visible;
 }
 
+.form_contact {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
 
+.contacts {
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.contacts a {
+    decoration: none;
+    color: white;
+}
