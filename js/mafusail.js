@@ -48,8 +48,48 @@ $(document).ready(function(){
         $('#menu ul').slideToggle(500);
     });
 
+    /*validate form*/
 
+    $("#loginform").validate({
 
+        rules: {
+
+            name: {
+                required: true,
+            },
+
+            mail: {
+                email: true,
+                required: true,
+            },
+
+            telephon: {
+                digits: true,
+                minlength: 10,
+                maxlength: 10,
+            },
+        },
+
+        messages: {
+
+            name: {
+                required: "Поле 'Имя' <br>обязательно для заполнения",
+            },
+
+            mail: {
+                email: "В e-mail адресе должен <br> присудстовать символ '@'! <br> Примере: UNIVERSITY@BIONIC-UNIVERSITY.COM",
+                required: "Поле для e-mail обязательно <br> для заполнения",
+            },
+
+            telephon: {
+                required: "Поле 'Номер телефону' <br>обязательно для заполнения",
+                digits: "Это поле содержит только цифры <br> Пример:  0443613450",
+                minlength: "Номер телефону должен быть не менее <br> 10 символов",
+                maxlength: "Номер телефону должен быть не менее <br> 10 символов",
+            },
+
+        }
+    });
 });
 
 // выплывающие меню
@@ -91,7 +131,7 @@ timeend= new Date(timeend.getYear()>1900?(timeend.getYear()+1):(timeend.getYear(
 // для задания обратного отсчета до определенной даты укажите дату в формате:
 // timeend= new Date(2016, 7-1, 1);
 // Для задания даты с точностью до времени укажите дату в формате:
-timeend= new Date(2016, 7-1, 1, 11-1, 0);
+timeend= new Date(2016, 6, 1, 10, 0);
 function time() {
     today = new Date();
     today = Math.floor((timeend-today)/1000);
@@ -101,6 +141,7 @@ function time() {
     timestr=today +"&#160;&#160;&#160;&#160;&#160;&#160;&#160;"+ thour+"&#160;&#160;&#160;&#160;&#160;&#160;&#160;"+tmin+"&#160;&#160;&#160;&#160;&#160;&#160;"+tsec+"";
     document.getElementById('t').innerHTML=timestr;
     window.setTimeout("time()",1000);
+
 }
 
 
@@ -224,3 +265,17 @@ $('#hover_a').click(function () {
     $("#block_inf_12").hide();
     $("#hover_a").hide();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+

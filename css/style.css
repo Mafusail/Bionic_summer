@@ -29,6 +29,7 @@ html {
 .block_1_a{
     display: block;
     width: 100%;
+    margin-bottom: -5px;
 }
 
 
@@ -892,4 +893,39 @@ label {
 
 .form_bottom button {
     border: none;
+}
+
+
+
+/*Валидвация*/
+
+
+/*label.error.active{*/
+    /*width: 300px;*/
+    /*position: absolute;*/
+    /*font-size: 1.2rem;*/
+    /*color: #ffffff;*/
+    /*right: 30px;*/
+    /*top: 45px;*/
+    /*margin: 40px;*/
+    /*padding: 40px;*/
+    /*background: #373737;*/
+    /*transition: all 0.5s;*/
+
+/*}*/
+
+
+label.error{
+    width: 300px;
+    position: absolute;
+    font-size: 1rem;
+    color: #ffffff;
+    left: 20px;
+    top: 205px;
+    margin: 40px;
+    padding: 20px;
+    background: #66A0A2;
+    transition: all 0.5s;
+    text-align: center;
+    border: 2px solid #277177;
 }
