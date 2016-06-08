@@ -658,7 +658,7 @@ img#logo2{
 
 .block_4_v{
     width: 100%;
-    height: 1100px;
+    min-height: 500px;
     background: url(css/img/fon_block4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -667,70 +667,114 @@ img#logo2{
 .front {
     padding-top: 30px;
     width: 100%;
-    height: 450px;
+    min-height: 400px;
 }
 
 .qa {
     width: 100%;
-    height: 450px;
+    min-height: 400px;
 }
 
 .picture_front {
     float: left;
+    padding-left: 50px;
     width: 27%;
     height: 400px;
-    background: url(img/front_end.png) no-repeat;
+    /*background: url(img/front_end.png) no-repeat;*/
+}
+
+.picture_front img {
+    width: 115%;
 }
 
 .content_front1 {
     float: left;
     width: 27%;
     height: 400px;
-    background: url(img/content_front1.png) no-repeat;
+    /*background: url(img/content_front1.png) no-repeat;*/
+}
+
+.content_front1 img {
+    width: 115%;
 }
 
 .content_front2 {
     float: left;
     width: 27%;
     height: 400px;
-    background: url(img/content_front2.png) no-repeat;
+    /*background: url(img/content_front2.png) no-repeat;*/
+}
+
+.content_front2 img {
+    width: 105%;
 }
 
 .content_front3 {
+    padding-top: -30px;
+    margin-left: 20px;
     float: left;
     width: 10%;
     height: 400px;
-    background: url(img/content_front3.png) no-repeat;
+    /*background: url(img/content_front3.png) no-repeat;*/
 }
+
+.content_front3 img {
+    padding-bottom: 25px;
+    width: 75%;
+}
+
+
+
 
 .qa_p {
     padding-right: 100px;
     float: right;
     width: 27%;
     height: 400px;
-    background: url(img/qa.png) no-repeat;
+    /*background: url(img/qa.png) no-repeat;*/
 }
+
+.qa_p img {
+    width: 115%;
+}
+
 
 .qa1 {
     float: right;
     width: 27%;
     height: 400px;
-    background: url(img/qa1.png) no-repeat;
+    /*background: url(img/qa1.png) no-repeat;*/
 }
+
+.qa1 img {
+    width: 115%;
+}
+
 
 .qa2 {
     float: right;
     width: 27%;
     height: 400px;
-    background: url(img/qa2.png) no-repeat;
+    /*background: url(img/qa2.png) no-repeat;*/
 }
+
+.qa2 img {
+    width: 115%;
+}
+
 
 .qa3 {
     float: right;
     width: 10%;
     height: 400px;
-    background: url(img/qa3.png) no-repeat;
+    /*background: url(img/qa3.png) no-repeat;*/
 }
+
+.qa3 img {
+    width: 95%;
+    margin-top: -40px;
+}
+
 
 /*FRONT END+QA END*/
 
