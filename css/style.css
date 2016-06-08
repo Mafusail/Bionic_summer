@@ -805,6 +805,20 @@ img#logo2{
     left: 30%;
 }
 
+.form_contact input, fieldset {
+    border: none;
+}
+
+fieldset input {
+    font-weight: 700;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
 .contacts {
     color: white;
     position: absolute;
@@ -815,4 +829,17 @@ img#logo2{
 .contacts a {
     decoration: none;
     color: white;
+}
+
+.ho4u input {
+    text-align: center;
+}
+
+.form_bottom {
+    text-align: center;
+    border: none;
+}
+
+.form_bottom button {
+    border: none;
 }
