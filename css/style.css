@@ -650,7 +650,7 @@ img#logo2{
 }
 
 .wow:first-child {
-    visibility: hidden;
+      visibility: hidden;
 }
 
 .block_4_v{
@@ -674,45 +674,59 @@ img#logo2{
 
 .picture_front {
     float: left;
-    width: 31%;
+    width: 27%;
     height: 400px;
     background: url(img/front_end.png) no-repeat;
 }
 
 .content_front1 {
     float: left;
-    width: 31%;
+    width: 27%;
     height: 400px;
     background: url(img/content_front1.png) no-repeat;
 }
 
 .content_front2 {
     float: left;
-    width: 31%;
+    width: 27%;
     height: 400px;
     background: url(img/content_front2.png) no-repeat;
+}
+
+.content_front3 {
+    float: left;
+    width: 10%;
+    height: 400px;
+    background: url(img/content_front3.png) no-repeat;
 }
 
 .qa_p {
     padding-right: 100px;
     float: right;
-    width: 31%;
+    width: 27%;
     height: 400px;
     background: url(img/qa.png) no-repeat;
 }
 
 .qa1 {
     float: right;
-    width: 31%;
+    width: 27%;
     height: 400px;
     background: url(img/qa1.png) no-repeat;
 }
 
 .qa2 {
     float: right;
-    width: 31%;
+    width: 27%;
     height: 400px;
     background: url(img/qa2.png) no-repeat;
+}
+
+.qa3 {
+    float: right;
+    width: 10%;
+    height: 400px;
+    background: url(img/qa3.png) no-repeat;
 }
 
 /*FRONT END+QA END*/
