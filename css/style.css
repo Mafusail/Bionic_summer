@@ -854,7 +854,8 @@ img#logo2{
     position: relative;
     background-image: url(img/fon5.jpg);
     background-repeat: no-repeat;
-    -webkit-background-size:;
+    background-position: center center;
+    -webkit-background-size:cover;
     background-size:cover;
     width: 100%;
     height: 1080px;
@@ -862,14 +863,15 @@ img#logo2{
 
 .formKonv {
     position: relative;
-    width: 484px;
-    height: 670px;
+    width: 25.2%;
+    height: 62.03%;
     background-image: url("img/mail.jpg");
     background-repeat: no-repeat;
+    -webkit-background-size:contain;
+    background-size:contain;
     top: 20%;
     bottom: 10%;
     left: 15%;
-    display: inline-block;
 }
 
 .form_contact {
@@ -920,28 +922,54 @@ label {
     border: none;
 }
 
+.developers {
+    margin-top: 10%;
+    color: black;
+}
+
+.developers img {
+    width: 100px;
+}
 
 @media screen and (max-width: 1800px) {
     .contacts {
         right: 25%;
+        top: 45%;
     }
 }
 
 @media screen and (max-width: 1600px) {
     .contacts {
         right: 20%;
+        top: 40%;
+    }
+    .form_contact {
+        padding: 0;
+        font-size: 1rem;
+        top: 5%;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .contacts {
-        right: 10%;
+        right: 25%;
+        top: 30%;
+    }
+    #formBackgr {
+        max-height: 700px;
+    }
+    .form_contact, .ho4u {
+        left: 5%;
+        font-size: .8em;
+    }
+    .form_contact label {
+        width: 100px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .contacts {
-        right: 5%;
+        top: 25%;
     }
 }
 
@@ -949,11 +977,27 @@ label {
     .formKonv {
         left: 5%;
     }
+    .form_bottom button img {
+        max-width: 100px;
+    }
+    .form_contact, .ho4u {
+        font-size: .5em;
+    }
+    .form_bottom button img {
+        max-width: 70px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
+    .form_contact {
+        width: 100%;
+        height: auto;
+    }
     .contacts {
-        bottom: 0;
+        width: 35%;
+        top: 20%;
+        right: 10%;
+        font-size: .8em;
     }
 }
 
