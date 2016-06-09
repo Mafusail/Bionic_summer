@@ -853,6 +853,9 @@ img#logo2{
 #formBackgr {
     position: relative;
     background-image: url(img/fon5.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size:;
+    background-size:cover;
     width: 100%;
     height: 1080px;
 }
@@ -948,7 +951,11 @@ label {
     }
 }
 
-
+@media screen and (max-width: 1000px) {
+    .contacts {
+        bottom: 0;
+    }
+}
 
 
 label.error{
