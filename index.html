@@ -124,7 +124,7 @@
                         <span>Володіє повним циклом розробки Front-end. Поєднує успішний досвід створення проектів e-commerce, роздрібної торгівлі, і авторський підхід до навчання.</span>
                     </div>
                 </div>
-            </div>s
+            </div>
             <div class="team_lide">
                 <div class="left_train"><img src="img/Monsar.png" alt=""></div>
                 <div class="right_train">
@@ -336,13 +336,23 @@ _gaq.push(['_trackPageview']);
         $('.multiple-items').slick({
             infinite: true,
             slidesToShow: 3,
-            slidesToScroll: 4,
+            slidesToScroll: 3,
             dots: true,
             autoplay: true
         });
     });
 </script>
-
+<script>
+    if (screen.width <= 600) {
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots: false,
+            autoplay: true
+        });
+    }
+</script>
 <script src="js/mafusail.js"></script>
 <script src="js/max.js"></script>
 <script src="js/riss.js"></script>
