@@ -12,6 +12,7 @@
 html {
     font-size: 100%;
     width: 100vw;
+
 }
 
 
@@ -30,6 +31,7 @@ html {
     display: block;
     width: 100%;
     margin-bottom: -5px;
+    overflow: hidden;
 }
 
 
@@ -119,6 +121,9 @@ img#logo2{
 
 
 
+
+
+
 /*счетчик*/
 
 #schetchic{
@@ -140,6 +145,10 @@ img#logo2{
     font-size:20px
 }
 
+#small_bg{
+    width: 100%;
+    display: none;
+}
 
 
 
@@ -229,15 +238,14 @@ img#logo2{
     }
 }
 
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 500px) {
+    #small_bg{
+        display: block;
+    }
+    #big_bg{
+        display: none;
+    }
+}
 
 
 
@@ -249,75 +257,196 @@ img#logo2{
 
 .block_2_v{
     width: 100%;
-    height: 900px;
+    margin: 0 auto;
+    height: 1000px;
     background: url(img/fon_block2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
-
-/*.block_2_v h1 {
-    text-align: center;
-    padding: 0px 0;
-    padding-bottom: 100px;
-    color: #e2550b;
-    font-size: 50px;
-}*/
 
 .txt {
     min-width: 200px;
     text-align: center;
-    padding: 0px 100px;
-    padding-top: 100px;
+    padding: 100px;
     color: #0d3a37;
-    font-size: 35px;
+    font-size: 30px;
+}
+#zachernut{
+    text-decoration: line-through;
 }
 
 .icon {
+    margin: 0 9%;
     width: 100%;
     height: 200px;
-    padding-top: 100px;
+
 }
 .pic {
-    width: 25%;
+
+    width: 20%;
     float: left;
 }
 
 .pic img {
-    width: 60%;
+    width: 55%;
 }
 
 .center {
+
     text-align: center;
+    /*background: pink;*/
 }
 .center2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     color: #0d3a37;
+    /*background: gold;*/
+}
+
+@media screen and (max-width: 1550px) {
+    .block_2_v{
+        height: 700px;
+    }
+
+    .txt {
+        min-width: 200px;
+        padding: 50px;
+        font-size: 26px;
+    }
+
+    .icon {
+        margin: 0 5%;
+        width: 100%;
+        height: 200px;
+    }
+    .pic {
+        width: 22%;
+    }
+
+    .pic img {
+        width: 60%;
+    }
+
+    .center2 {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .block_2_v{
+        height: 700px;
+    }
+
+    .txt {
+        min-width: 200px;
+        padding: 70px;
+        font-size: 22px;
+    }
+
+    .icon {
+        margin: 0 2.5%;
+        width: 100%;
+        height: 200px;
+    }
+    .pic {
+        width: 24%;
+    }
+
+    .pic img {
+        width: 65%;
+    }
+
+    .center2 {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .block_2_v{
+        height: 800px;
+    }
+
+    .txt {
+        min-width: 200px;
+        padding: 40px;
+        font-size: 22px;
+    }
+
+    .icon {
+        margin: 0;
+        width: 100%;
+        height: 200px;
+    }
+    .pic {
+        width: 49%;
+    }
+
+    .pic img {
+        width: 45%;
+    }
+
+    .center2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .block_2_v{
+        height: 750px;
+    }
+    .white_line h1{
+        font-size: 25px;
+    }
 }
 
 
-.pic::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url("css/img/pic1.png");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    display: block;
-    transition: all 0.5s;
-    overflow: hidden;
+@media screen and (max-width: 450px) {
+    .white_line h1{
+        font-size: 20px;
+    }
+    .block_2_v{
+        height: 1350px;
+    }
+
+    .txt {
+        min-width: 200px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .icon {
+        margin: 0;
+        width: 100%;
+        height: 200px;
+    }
+    .pic {
+        width: 100%;
+    }
+
+    .pic img {
+        width: 45%;
+    }
+
+    .center2 {
+        font-size: 20px;
+    }
+
 }
 
 
-.pic:hover::after {
-    background: url("css/img/pic12.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
 
+@media screen and (max-width: 350px) {
+    .block_2_v{
+        height: 1250px;
+    }
+    .white_line h1{
+        font-size: 15px;
+    }
+}
 /*BLOCK2 END*/
 
 
@@ -542,7 +671,11 @@ img#logo2{
 @media screen and (max-width: 620px) {
     .slick-slider .slick-track, .slick-slider .slick-list {
         width: 100%;
+        height: 500px;
         vertical-align: middle;
+    }
+    .slide-contain{
+        height: 800px !important;
     }
 }
 
@@ -559,7 +692,9 @@ img#logo2{
 
 .white_line {
     line-height: 163px;
-    background: white;
+    background: url("../img/fon_line.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     width: 100%;
     height: 163px;
@@ -576,6 +711,7 @@ img#logo2{
     background: url(css/img/fon_block4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .front {
@@ -697,6 +833,7 @@ img#logo2{
 .block_3_m{
     width: 100%;
     height: auto;
+    overflow: hidden;
     /*line-height: 600px;*/
     /*background: #d37c6f;*/
 }
@@ -704,18 +841,18 @@ img#logo2{
 
 
 .block_5_a{
+    overflow: hidden;
     width: 100%;
     position: relative;
 }
 
 #headerForm {
     position: relative;
-    background-image: none;
 }
 
 #formBackgr {
     position: relative;
-    background-image: url(img/fon5.jpg);
+    background-image: url(../img/footer.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size:cover;
