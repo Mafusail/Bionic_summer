@@ -304,6 +304,11 @@ img#logo2{
     /*background: gold;*/
 }
 
+
+.opisanie{
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 1550px) {
     .block_2_v{
         height: 700px;
@@ -691,139 +696,214 @@ img#logo2{
 
 
 .white_line {
-    line-height: 163px;
+    line-height: 143px;
     background: url("../img/fon_line.png");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     width: 100%;
-    height: 163px;
+    height: 143px;
     font-size: 24px;
+    color: #d16c25;
 }
 
 .wow:first-child {
       visibility: hidden;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .block_4_v{
     width: 100%;
-    min-height: 500px;
     background: url(css/img/fon_block4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 
-.front {
-    padding-top: 30px;
+.front{
     width: 100%;
-    min-height: 400px;
 }
 
-.qa {
+
+.block_img{
+    width: 33%;
+    float: left;
+    /*background: pink;*/
+    position: relative;
+}
+
+.block_img img{
     width: 100%;
-    min-height: 400px;
 }
 
-.picture_front {
+
+.block_img_knopka{
+    width: 33%;
     float: left;
-    padding-left: 50px;
-    width: 27%;
-    height: 400px;
-    /*background: url(img/front_end.png) no-repeat;*/
+    /*background: pink;*/
+    position: relative;
 }
-
-.picture_front img {
-    width: 115%;
-}
-
-.content_front1 {
-    float: left;
-    width: 27%;
-    height: 400px;
-    /*background: url(img/content_front1.png) no-repeat;*/
-}
-
-.content_front1 img {
-    width: 115%;
-}
-
-.content_front2 {
-    float: left;
-    width: 27%;
-    height: 400px;
-    /*background: url(img/content_front2.png) no-repeat;*/
-}
-
-.content_front2 img {
-    width: 105%;
-}
-
-.content_front3 {
-    padding-top: -30px;
-    margin-left: 20px;
-    float: left;
-    width: 10%;
-    height: 400px;
-    /*background: url(img/content_front3.png) no-repeat;*/
-}
-
-.content_front3 img {
-    padding-bottom: 25px;
-    width: 75%;
+.block_img_knopka img{
+    width: 100%;
 }
 
 
 
 
-.qa_p {
-    padding-right: 100px;
-    float: right;
-    width: 27%;
-    height: 400px;
-    /*background: url(img/qa.png) no-repeat;*/
+/*Кнопки*/
+
+#knopka_blue{
+    bottom: 45px;
+    right: 25%;
+    position: absolute;
+
+    width: 45%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 50px ;
+    color: #ffffff;
+    background: #00b19b;
+    border: 2px solid #006d59;
+    transition: all .5s;
 }
 
-.qa_p img {
-    width: 115%;
-}
-
-
-.qa1 {
-    float: right;
-    width: 27%;
-    height: 400px;
-    /*background: url(img/qa1.png) no-repeat;*/
-}
-
-.qa1 img {
-    width: 115%;
-}
-
-
-.qa2 {
-    float: right;
-    width: 27%;
-    height: 400px;
-    /*background: url(img/qa2.png) no-repeat;*/
-}
-
-.qa2 img {
-    width: 115%;
+#knopka_blue:hover{
+    color: #0d3a37;
+    background: transparent;
 }
 
 
-.qa3 {
-    float: right;
-    width: 10%;
-    height: 400px;
-    /*background: url(img/qa3.png) no-repeat;*/
+ #knopka_red{
+    bottom: 45px;
+    right: 25%;
+    position: absolute;
+
+    width: 45%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 50px ;
+    color: #ffffff;
+    background: #f05048;
+    border: 2px solid #a33a32;
+    transition: all .5s;
 }
 
-.qa3 img {
-    width: 95%;
-    margin-top: -40px;
+#knopka_red:hover{
+    color: #0d3a37;
+    background: transparent;
 }
+
+
+
+
+@media screen and (max-width: 2200px) {
+    #knopka_blue{
+        bottom: 5%;
+        right: 25%;
+
+        width: 50%;
+        font-size: 1.2rem;
+        padding: 20px 40px;
+    }
+
+    #knopka_red{
+        bottom: 5%;
+        right: 25%;
+
+        width: 50%;
+        font-size: 1.2rem;
+        padding: 20px 40px;
+    }
+
+}
+
+@media screen and (max-width: 1800px) {
+    #knopka_blue{
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 50px ;
+    }
+
+    #knopka_red{
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    #knopka_blue{
+        font-size: 0.7rem;
+        padding: 10px 20px;
+    }
+
+    #knopka_red{
+        font-size: 0.7rem;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #knopka_blue{
+        font-size: 0.5rem;
+        padding: 5px 10px;
+    }
+
+    #knopka_red{
+        font-size: 0.5rem;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .front{
+        width: 100%;
+    }
+    .pioneru{
+        width: 100%;
+    }
+    .text_pioneru{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #knopka_blue{
+        font-size: 0.3rem;
+        padding: 5px 5px;
+    }
+
+    #knopka_red{
+        font-size: 0.3rem;
+        padding: 5px 5px;
+    }
+
+}
+
+
+
+
+
 
 
 /*FRONT END+QA END*/
@@ -930,6 +1010,85 @@ label {
 .developers img {
     width: 100px;
 }
+
+
+
+
+/*Я*/
+
+
+input{
+    background: #fbfcec;
+}
+
+.soth_sets{
+    width: 25px;
+}
+
+
+
+/*Кнопки*/
+
+#knopka_otpravka{
+    bottom: -30%;
+    left: 21%;
+    position: absolute;
+
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px ;
+    color: #ffffff;
+    background: #6ea52e;
+    border: 2px solid #408940;
+    transition: all .5s;
+}
+
+#knopka_otpravka:hover{
+    color: #0d3a37;
+    background: transparent;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #knopka_otpravka{
+        bottom: -40%;
+        left: 20%;
+
+        width: 60%;
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 950px) {
+    #knopka_otpravka{
+        bottom: -15%;
+        left: 25%;
+
+        width: 40%;
+        font-size: 0.4rem;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1800px) {
     .contacts {

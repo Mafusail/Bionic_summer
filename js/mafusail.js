@@ -94,13 +94,6 @@ $(document).ready(function(){
     });
 });
 
-// выплывающие меню
-
-
-$('#logo2').click(function () {
-    $('#menu ul').slideToggle(500);
-});
-
 
 
 /*Якорь*/
