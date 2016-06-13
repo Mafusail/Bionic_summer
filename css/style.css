@@ -680,9 +680,69 @@ img#logo2{
         vertical-align: middle;
     }
     .slide-contain{
-        height: 800px !important;
+        height: 550px !important;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .left_train{
+        margin-left: 2%;
+        width: 95%;
+    }
+
+    .left_train img{
+        width: 95%;
+    }
+
+    .right_train img{
+        width: 95%;
+    }
+    .right_train{
+        margin-left: 2%;
+        width: 95%;
+    }
+
+    .right_train h2{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .right_train h3{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .right_train span{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .opisanie {
+        line-height: 1rem;
+    }
+
+    .left_train span{
+        font-size: 0.8rem;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 20px !important;
+    }
+
+    .slick-prev {
+        left: -30px !important;
+    }
+
+    .slick-next {
+        right: -15px !important;
+    }
+
+    .slide-contain {
+        height: 500px;
+    }
+
+}
+
 
 
 
