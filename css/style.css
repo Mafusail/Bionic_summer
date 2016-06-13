@@ -876,6 +876,142 @@ img#logo2{
 
 
 
+
+
+/*Всплывающие окно*/
+
+#hover_a{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(9, 5, 59, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+}
+
+
+
+#block_front_end{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 8%;
+    left: 20%;
+    display: none;
+    background: url(css/img/fon_block4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 9999;
+    font-size: 25px;
+}
+
+#block_qa_ba{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid #ddd;
+    overflow: hidden;
+    position: fixed;
+    top: 8%;
+    left: 20%;
+    display: none;
+    background: url(css/img/fon_block4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 9999;
+    font-size: 25px;
+}
+
+.spisok_modul{
+    margin: 2% 0 0 0;
+}
+
+
+.text_a h3{
+    text-align: center;
+    display: block;
+}
+
+
+.text_a p{
+    text-align: center;
+    margin: 5px;
+    display: block;
+}
+
+
+
+/*Медиа всплывающего окна*/
+
+@media screen and (max-width: 1300px) {
+    #block_front_end{
+        width: 60%;
+        padding: 10px;
+        border: 6px solid #ddd;
+        top: 8%;
+        left: 18%;
+        font-size: 15px;
+    }
+    #block_qa_ba{
+        width: 60%;
+        padding: 10px;
+        border: 6px solid #ddd;
+        top: 8%;
+        left: 18%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #block_front_end{
+        width: 80%;
+        padding: 10px;
+        border: 4px solid #ddd;
+        top: 8%;
+        left: 8%;
+        font-size: 11px;
+    }
+    #block_qa_ba{
+        width: 80%;
+        padding: 10px;
+        border: 4px solid #ddd;
+        top: 8%;
+        left: 8%;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #block_front_end{
+        width: 70%;
+        padding: 10px;
+        border: 4px solid #ddd;
+        top: 9%;
+        left: 11%;
+        font-size: 10px;
+    }
+    #block_qa_ba{
+        width: 70%;
+        padding: 10px;
+        border: 4px solid #ddd;
+        top: 9%;
+        left: 11%;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+/*медиа блока*/
+
 @media screen and (max-width: 2200px) {
     #knopka_blue{
         bottom: 5%;

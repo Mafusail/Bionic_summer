@@ -141,10 +141,24 @@ function time() {
 
 
 
+$('#knopka_blue').click(function () {
+    $("#block_front_end").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_front_end").hide();
+    $("#hover_a").hide();
+});
 
 
-
-
+$('#knopka_red').click(function () {
+    $("#block_qa_ba").show(500);
+    $("#hover_a").show();
+});
+$('#hover_a').click(function () {
+    $("#block_qa_ba").hide();
+    $("#hover_a").hide();
+});
 
 
 

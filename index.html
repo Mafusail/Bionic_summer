@@ -46,7 +46,6 @@
 
 
 
-<div id="hover_a"></div>
 
 
 
@@ -275,9 +274,7 @@
             </div>
             <div class="block_img_knopka wow bounceInRight text_pioneru" data-wow-delay="1s"  data-wow-offset="300">
                 <img src="img/content_front1.png" alt="pic">
-                <a href="#" class="paulund_modal">
-                    <button id="knopka_blue">ДЕТАЛІ ПРОГРАММИ</button>
-                </a>
+                <button id="knopka_blue">ДЕТАЛІ ПРОГРАММИ</button>
             </div>
             <div class="block_img wow bounceInRight text_pioneru" data-wow-delay="1.5s"  data-wow-offset="300">
                 <img src="img/content_front2.png" alt="pic">
@@ -287,9 +284,7 @@
         <div  class="front">
             <div class="block_img wow bounceInLeft text_pioneru" data-wow-delay="1.5s"  data-wow-offset="300">
                 <img src="img/qa2.png" alt="pic">
-                <a href="#" class="paulund_modal_2">
-                    <button id="knopka_red">ДЕТАЛІ ПРОГРАММИ</button>
-                </a>
+                <button id="knopka_red">ДЕТАЛІ ПРОГРАММИ</button>
             </div>
             <div class="block_img_knopka wow bounceInLeft text_pioneru" data-wow-delay="1s"  data-wow-offset="300">
                 <img src="img/qa1.png" alt="pic">
@@ -299,6 +294,70 @@
             </div>
         </div>
 </div>
+
+
+
+<!--Всплывающие окно-->
+<div id="hover_a"></div>
+
+<!--Информация про Front-end-->
+
+<div id="block_front_end">
+    <div class="text_a">
+        <h3>Докладний список тем, які охоплює програма:</h3>
+        <div class="spisok_modul">
+            <p>Професійні інструменти розробника: Scrum, Jira, Git</p>
+            <p>Верстка (блокова, модульна, таблична)</p>
+            <p>Позиціонування, Форми та їх елементи</p>
+            <p>Робота з зображеннями та фотошоп</p>
+            <p>Адаптивна верстка</p>
+            <p>Флексбокс</p>
+            <p>Робота з фреймворками на прикладі Bootstrap/Materialize</p>
+            <p>Workflow frontend-проекту</p>
+            <p>Основи JavaScript</p>
+            <p>Синтаксис та типи даних</p>
+            <p>Вирази та інструкції</p>
+            <p>Функції, Масиви та об’єкти</p>
+            <p>Browser Object Model (BOM)</p>
+            <p>Document Object Model (DOM)</p>
+            <p>Основи роботи з JSON-сервером</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Информация про QA/BA-->
+
+<div id="block_qa_ba">
+    <div class="text_a">
+        <h3>Докладний список тем, які охоплює програма:</h3>
+        <div class="spisok_modul">
+            <p>Професійні інструменти розробника: Scrum, Jira.</p>
+            <p>Методики попередньої оцінки та аналізу проекту</p>
+            <p>Основи роботи з клієнтом та збір інформації</p>
+            <p>Збір та формування requirements</p>
+            <p>Типи requirements</p>
+            <p>Написання use cases, user stories</p>
+            <p>Waterfall vs Scrum, відслідковування прогресу</p>
+            <p>Робота над проектом, оцінка та планування</p>
+            <p>Введення у тестування, поняття якості та його атрибути</p>
+            <p>Планування тестування (тест-план, тест-стратегія)</p>
+            <p>Практикум ручного тестування ПЗ, написання test cases</p>
+            <p>Документування знайдених дефектів, bug reports</p>
+            <p>Основи UX паттернів</p>
+         </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -356,11 +415,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- WINDOW -->
 <script src="js/jquery.paulund_modal_box.js"></script>
 
 <script>
-    
+
 $(document).ready(function(){
     $('.paulund_modal').paulund_modal_box();
     $('.paulund_modal_2').paulund_modal_box({
