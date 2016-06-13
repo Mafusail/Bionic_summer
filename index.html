@@ -366,37 +366,41 @@
     <div class="white_line" id="headerForm">
         <h1 >Вступай в загін!</h1>
     </div>
-    <div id="formBackgr">
-        <div class="formKonv">
-            <form class="form_contact" id="loginform" action="" method="post">
-                <p>
-                    <label for='i1'>Мене звати: </label><input type="text" name="name" id="i1" placeholder="____________________"/>
-                </p>
-                <p>
-                    <label for='i2'>Номер телефону: </label><input type="tel" name="telephon" id="i2" placeholder="____________________" >
-                </p>
-                <p>
-                    <label for='i3'>Мій e-mail: </label><input type="email" name="mail" id="i3" placeholder="____________________"/>
-                </p>
-                <br>
-                <fieldset class="ho4u">
-                    <legend>Я хочу стати:</legend>
-                    &nbsp;&nbsp;&nbsp;<input type="radio" name="profession" value="front-end" checked> <b>Front-end скаутом</b><br>
-                    &nbsp;&nbsp;&nbsp;<input type="radio" name="profession" value="QA"> <b>QA-Business Analyst скаутом</b><br>
-                    &nbsp;&nbsp;&nbsp;<input type="radio" name="profession" value="other"> <b>Ще не визначився</b>
-                </fieldset>
-                </br>
-                <p class="form_bottom" >
-                    <button id="knopka_otpravka" type="submit" name="enter">Надіслати</button>
-                </p>
-            </form>
+    <div id="formbackgr">
+        <div class="formkonv">
+            <div class="formkonv_text">
+                <h4>Залишити заявку</h4>
+                <form class="form_contact" id="loginform" action="" method="post">
+                    <div class="form_contact_dannie">
+                        <p>
+                            <label for='i1'>Мене звати: </label><input type="text" name="name" id="i1" />
+                        </p>
+                        <p>
+                            <label for='i2'>Номер телефону: </label><input type="tel" name="telephon" id="i2"  />
+                        </p>
+                        <p>
+                            <label for='i3'>Мій e-mail: </label><input type="email" name="mail" id="i3" />
+                        </p>
+                    </div>
+
+                    <div class="ho4u">
+                        <legend>Я хочу стати:</legend>
+                        <input type="radio" name="profession" value="front-end" checked> <b>Front-end скаутом</b><br>
+                        <input type="radio" name="profession" value="QA"> <b>QA-Business Analyst скаутом</b><br>
+                        <input type="radio" name="profession" value="other"> <b>Ще не визначився</b>
+                        <p class="form_bottom" >
+                            <button id="knopka_otpravka" type="submit" name="enter">Надіслати</button>
+                        </p>
+
+                    </div>
+
+                </form>
+            </div>
         </div>
         <div class="contacts">
             <h2>Залишились питання?</h2>
-            <p>Телефонуй: +38(044) 361 3506</p>
+            <p>Телефонуй: +3(044) 361 3506</p>
             <p>або пиши: korniichuk@bionic-university.com</p>
-            </br>
-            </br>
             <h2>Приєднуйся до нас:</h2>
             <a href="https://www.facebook.com/BionicUniversity"><img class="soth_sets" src="css/img/fb.png" alt="facebook">Facebook</a>
             <a href="http://vk.com/bionicuniversity"><img class="soth_sets" src="css/img/vk.png" alt="vk">ВКонтакте</a>
@@ -408,7 +412,7 @@
             </div>
         </div>
         </br>
-
+    <div class="clearfix"></div>
     </div>
     <!--formWrap end!-->
 </div>

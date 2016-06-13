@@ -1117,105 +1117,103 @@ img#logo2{
 
 
 
+
+
+
+
+
 .block_5_a{
     overflow: hidden;
     width: 100%;
-    position: relative;
-}
-
-#headerForm {
-    position: relative;
-}
-
-#formBackgr {
-    position: relative;
     background-image: url(../img/footer.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size:cover;
     background-size:cover;
-    width: 100%;
-    height: 1080px;
-}
-
-.formKonv {
     position: relative;
-    width: 25.2%;
-    height: 62.03%;
-    background-image: url("img/mail.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size:contain;
-    background-size:contain;
-    top: 20%;
-    bottom: 10%;
-    left: 15%;
 }
 
-.form_contact {
+.formkonv{
+    width: 528px;
+    height: 670px;
+    margin: 5% 0 5% 10%;
+    display: block;
+    background: url("../img/konv.png") no-repeat;
+    background-size: contain;
+}
+
+.formkonv_text{
+    padding: 40px 60px;
+}
+.formkonv_text h4{
+    font-size: 20px;
+    color: #11504b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.formkonv_text p {
+    font-size: 15px;
+    color: #11504b;
+}
+
+legend{
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #11504b;
+}
+
+.ho4u{
+
+    width: 60%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #11504b;
+}
+
+.ho4u input{
+    margin: 5px auto;
+}
+
+
+
+.contacts{
+    color: #ffffff;
     position: absolute;
-    top: 10%;
-    left: 10%;
-    padding-top: 5%;
-    padding-left: 5%;
+    right: 20%;
+    bottom: 25%;
 }
 
-.form_contact input, fieldset {
-    border: none;
+.contacts h2{
+    margin: 20px 0;
 }
 
-fieldset input {
-    font-weight: 700;
-}
 
-label {
-    display: inline-block;
-    width: 150px;
-    text-align: left;
-}
 
-.contacts {
-    color: white;
-    position: absolute;
-    top: 50%;
-    right: 30%;
-    display: inline-block;
-}
-
-.contacts a {
+.contacts a{
+    color: #ffffff;
+    padding: 0 20px;
     text-decoration: none;
-    color: white;
 }
 
-.ho4u input {
-    text-align: center;
-}
-
-.form_bottom {
-    text-align: center;
-    border: none;
-}
-
-.form_bottom button {
-    border: none;
-}
-
-.developers {
-    margin-top: 10%;
+.developers{
+    margin: 20px 0;
     color: black;
 }
 
-.developers img {
-    width: 100px;
+.developers img{
+    margin: 10px 0;
+    width: 150px;
 }
 
 
-
-
-/*Я*/
-
-
-input{
+.form_contact_dannie input{
+    width: 100%;
+    border: none;
     background: #fbfcec;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
 }
 
 .soth_sets{
@@ -1227,12 +1225,9 @@ input{
 /*Кнопки*/
 
 #knopka_otpravka{
-    bottom: -30%;
-    left: 21%;
-    position: absolute;
-
-    width: 70%;
-    font-size: 1.2rem;
+    margin: 30px auto;
+    width: 100%;
+    font-size: 15px;
     font-weight: bold;
     padding: 10px;
     border-radius: 50px ;
@@ -1248,145 +1243,135 @@ input{
 }
 
 
-@media screen and (max-width: 1100px) {
-    #knopka_otpravka{
-        bottom: -40%;
-        left: 20%;
-
-        width: 60%;
-        font-size: 0.8rem;
-        padding: 5px;
-    }
-}
-@media screen and (max-width: 950px) {
-    #knopka_otpravka{
-        bottom: -15%;
-        left: 25%;
-
-        width: 40%;
-        font-size: 0.4rem;
-        padding: 5px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1800px) {
-    .contacts {
-        right: 25%;
-        top: 45%;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .contacts {
-        right: 20%;
-        top: 40%;
-    }
-    .form_contact {
-        padding: 0;
-        font-size: 1rem;
-        top: 5%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .contacts {
-        right: 25%;
-        top: 30%;
-    }
-    #formBackgr {
-        max-height: 700px;
-    }
-    .form_contact, .ho4u {
-        left: 5%;
-        font-size: .8em;
-    }
-    .form_contact label {
-        width: 100px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .contacts {
-        top: 25%;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .formKonv {
-        left: 5%;
-    }
-    .form_bottom button img {
-        max-width: 100px;
-    }
-    .form_contact, .ho4u {
-        font-size: .5em;
-    }
-    .form_bottom button img {
-        max-width: 70px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .form_contact {
-        width: 100%;
-        height: auto;
-    }
-    .contacts {
-        width: 35%;
-        top: 20%;
-        right: 10%;
-        font-size: .8em;
-    }
-}
-
 
 label.error{
     height: 80px;
-    width: 110%;
+    width: 100%;
     position: absolute;
     font-size: 100%;
     color: #ffffff;
-    left: 3%;
-    bottom: -100%;
+    left: 0;
+    bottom: 0;
     padding: 5px;
     background: #8DC2C4;
-    border: 2px solid #2E767C;
+    border-top: 2px solid #2E767C;
     transition: all 0.5s;
     text-align: center;
 }
 
 
 
-@media screen and (max-width: 1300px) {
-    .white_line {
-        line-height: 100px;
-        height: 100px;
-        font-size: 15px;
+
+
+@media screen and (max-width: 1500px) {
+    .formkonv{
+        width: 350px;
+        height: 470px;
+        margin: 5% 0 5% 10%;
+        background-size: contain;
+    }
+
+    .formkonv_text{
+        padding: 30px 40px;
+    }
+    .formkonv_text h4{
+        font-size: 20px;
+        color: #11504b;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .formkonv_text p {
+        font-size: 12px;
+        color: #11504b;
+    }
+
+    legend{
+        margin: 10px auto;
+        font-size: 20px;
+        font-weight: bold;
+        color: #11504b;
+    }
+
+    .ho4u{
+        width: 70%;
+        margin: 0 auto;
+        font-size: 12px;
+        color: #11504b;
+    }
+
+    .ho4u input{
+        margin: 3px auto;
+    }
+
+    .form_contact_dannie input{
+        width: 100%;
+        border: none;
+        background: #fbfcec;
+        border-bottom: 1px solid grey;
+        font-size: 12px;
+    }
+
+
+
+
+
+    .contacts{
+        color: #ffffff;
+        position: absolute;
+        right: 5%;
+        bottom: 25%;
+    }
+
+    .contacts h2{
+        margin: 20px 0;
+    }
+    .contacts a{
+        color: #ffffff;
+        padding: 0 20px;
+        text-decoration: none;
+    }
+
+    .developers{
+        margin: 20px 0;
+        color: black;
+    }
+
+    .developers img{
+        margin: 10px 0;
+        width: 150px;
+    }
+    .soth_sets{
+        width: 25px;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .slick-slide {
-        line-height: 100px;
-        height: 100px;
-        font-size: 15px;
-    }
+
+@media screen and (max-width: 950px) {
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
