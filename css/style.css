@@ -309,6 +309,7 @@ img#logo2{
     margin-top: 10px;
 }
 
+
 @media screen and (max-width: 1550px) {
     .block_2_v{
         height: 700px;
@@ -676,7 +677,7 @@ img#logo2{
 @media screen and (max-width: 620px) {
     .slick-slider .slick-track, .slick-slider .slick-list {
         width: 100%;
-        height: 500px;
+        height: 550px;
         vertical-align: middle;
     }
     .slide-contain{
