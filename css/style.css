@@ -1348,13 +1348,56 @@ label.error{
 
 
 @media screen and (max-width: 950px) {
+    #formbackgr {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .formkonv {
+        position: static;
+        margin: 7% auto 2%;
+    }
+    .contacts {
+        position: static;
+    }
+    .clearfix {
+        clear: both;
+    }
+}
 
+@media screen and (max-width: 450px) {
+    .contacts a {
+        display: inline-block;
+    }
+    .contacts {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
 }
 
 
+@media screen and (max-width: 400px) {
+    .formkonv {
+        margin: 7% 2% 2% 2.5%;
+        width: auto;
+    }
+    #knopka_otpravka{
+        margin: 35px auto;
+        width: 80%;
+    }
+}
 
-
-
+@media screen and (max-width: 350px) {
+    .ho4u {
+        width: 100%;
+    }
+    #knopka_otpravka{
+        margin: 5px auto;
+        width: 80%;
+    }
+}
 
 
 
