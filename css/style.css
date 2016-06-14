@@ -1193,8 +1193,9 @@ legend{
 
 .contacts a{
     color: #ffffff;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     text-decoration: none;
+    cursor: pointer;
 }
 
 .developers{
@@ -1203,7 +1204,6 @@ legend{
 }
 
 .developers img{
-    margin: 10px 0;
     width: 150px;
 }
 
@@ -1338,7 +1338,6 @@ label.error{
     }
 
     .developers img{
-        margin: 10px 0;
         width: 150px;
     }
     .soth_sets{
